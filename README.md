@@ -1,29 +1,31 @@
-<div dir="rtl">
+# Personnel Evaluation Report — Downloads
 
-# کارنامه پرسنلی — دریافت برنامه
+Download page for **Personnel Evaluation Report** (کارنامه پرسنلی), a local desktop app that produces
+Persian employee evaluation reports from a personnel Excel workbook. **No GitHub account is needed to download.**
 
-برنامهٔ «کارنامه پرسنلی» (Personnel Evaluation Report) را از این صفحه دانلود کنید. برای دانلود به حساب گیت‌هاب نیاز **ندارید**.
+## ⬇️ Download the latest version
 
-## ⬇️ دانلود آخرین نسخه
-به صفحهٔ **[Releases ← آخرین نسخه](../../releases/latest)** بروید و از بخش **Assets** فایل مناسب را بردارید:
+Go to **[Releases → Latest](../../releases/latest)** and pick the right file under **Assets**:
 
-| سیستم | فایل |
+| System | File |
 |---|---|
-| ویندوز ۱۰/۱۱ (۶۴ بیتی) — نصب‌کننده | `PersonnelEvaluationReport-Setup-<نسخه>.exe` |
-| ویندوز — نسخهٔ قابل‌حمل بدون نصب | `PersonnelEvaluationReport-portable-<نسخه>.zip` |
-| مک با تراشهٔ Apple (M1، M2، M3، …) | `PersonnelEvaluationReport-<نسخه>-macOS-arm64.dmg` |
-| مک با پردازندهٔ اینتل | `PersonnelEvaluationReport-<نسخه>-macOS-x86_64.dmg` |
+| Windows 10/11 (64-bit), installer | `PersonnelEvaluationReport-Setup-<version>.exe` |
+| Windows, portable (no install) | `PersonnelEvaluationReport-portable-<version>.zip` |
+| macOS, Apple Silicon (M1, M2, M3…) | `PersonnelEvaluationReport-<version>-macOS-arm64.dmg` |
+| macOS, Intel | `PersonnelEvaluationReport-<version>-macOS-x86_64.dmg` |
 
-برای اطمینان از سالم بودن فایل، مقدار SHA-256 آن را با فایل `SHA256SUMS.txt` همان نسخه مقایسه کنید.
+To check that a download is intact, compare its SHA-256 hash with `SHA256SUMS.txt` from the same release.
 
-## راهنما
-راهنمای کامل نصب و استفاده همراه هر نسخه منتشر می‌شود:
-- `README-Windows.md` — نصب و استفاده در ویندوز
-- `README-macOS.md` — نصب و استفاده در مک
+## Installation guides
 
-برنامه کاملاً روی رایانهٔ شما و بدون اینترنت کار می‌کند و هیچ اطلاعاتی را به بیرون نمی‌فرستد.
+Each release includes installation and usage guides:
+
+- `README-Windows.md` — Windows (English)
+- `README-macOS.md` — macOS (English)
+- `راهنمای نصب ویندوز.md` and `راهنمای نصب مک.md` — the same guides in Persian
+
+The app runs entirely on your computer, works offline, and sends no data anywhere.
 
 ---
-<sub>این مخزن فقط برای انتشار نسخه‌هاست و کد برنامه در آن نیست. نسخه‌ها به‌طور خودکار ساخته، آزمایش و منتشر می‌شوند.</sub>
-
-</div>
+<sub>This repository only hosts release files; the source code is not here. Releases are built, tested and
+published automatically.</sub>
