@@ -18,11 +18,10 @@ To check that a download is intact, compare its SHA-256 hash with `SHA256SUMS.tx
 
 ## Installation guides
 
-Each release includes installation and usage guides:
+Each release includes step-by-step installation and usage guides (in Persian, for end users):
 
-- `README-Windows.md` — Windows (English)
-- `README-macOS.md` — macOS (English)
-- `راهنمای نصب ویندوز.md` and `راهنمای نصب مک.md` — the same guides in Persian
+- `README-Windows.md` — Windows
+- `README-macOS.md` — macOS
 
 The app runs entirely on your computer, works offline, and sends no data anywhere.
 
